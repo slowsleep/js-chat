@@ -7,9 +7,11 @@ defineProps<{
 </script>
 
 <template>
-    <div class="p-3 bg-emerald-300">
-        <input type="text" placeholder="@...">
-        <button class="p-2 rounded-lg text-slate-200 bg-slate-900">поиск</button>
+    <div class="p-3">
+        <div class="w-full flex justify-between">
+            <input class="w-full" type="text" placeholder="@...">
+            <button class="p-2 rounded-lg text-slate-200 bg-slate-900 ">поиск</button>
+        </div>
         <ul>
             <li v-for="contact in contacts">
                 <p>{{ contact.name }}</p>
