@@ -5,33 +5,9 @@ import ListContacts from "./components/ListContacts.vue";
 import MainPage from './pages/MainPage.vue';
 
 const contactsArr = [
-    {name: "Alex", last_message:"Go away!", datetime_msg:"02-12-2023 14-46"},
-    {name: "Lily", last_message:"Hiii", datetime_msg:"02-12-2023 12-19"},
-    {name: "Denis", last_message:"I will be later", datetime_msg:"01-12-2023 07-31"},
-    {name: "Alex", last_message:"Go away!", datetime_msg:"02-12-2023 14-46"},
-    {name: "Lily", last_message:"Hiii", datetime_msg:"02-12-2023 12-19"},
-    {name: "Denis", last_message:"I will be later", datetime_msg:"01-12-2023 07-31"},
-    {name: "Alex", last_message:"Go away!", datetime_msg:"02-12-2023 14-46"},
-    {name: "Lily", last_message:"Hiii", datetime_msg:"02-12-2023 12-19"},
-    {name: "Denis", last_message:"I will be later", datetime_msg:"01-12-2023 07-31"},
-    {name: "Alex", last_message:"Go away!", datetime_msg:"02-12-2023 14-46"},
-    {name: "Lily", last_message:"Hiii", datetime_msg:"02-12-2023 12-19"},
-    {name: "Denis", last_message:"I will be later", datetime_msg:"01-12-2023 07-31"},
-    {name: "Alex", last_message:"Go away!", datetime_msg:"02-12-2023 14-46"},
-    {name: "Lily", last_message:"Hiii", datetime_msg:"02-12-2023 12-19"},
-    {name: "Denis", last_message:"I will be later", datetime_msg:"01-12-2023 07-31"},
-    {name: "Alex", last_message:"Go away!", datetime_msg:"02-12-2023 14-46"},
-    {name: "Lily", last_message:"Hiii", datetime_msg:"02-12-2023 12-19"},
-    {name: "Denis", last_message:"I will be later", datetime_msg:"01-12-2023 07-31"},
-    {name: "Alex", last_message:"Go away!", datetime_msg:"02-12-2023 14-46"},
-    {name: "Lily", last_message:"Hiii", datetime_msg:"02-12-2023 12-19"},
-    {name: "Denis", last_message:"I will be later", datetime_msg:"01-12-2023 07-31"},
-    {name: "Alex", last_message:"Go away!", datetime_msg:"02-12-2023 14-46"},
-    {name: "Lily", last_message:"Hiii", datetime_msg:"02-12-2023 12-19"},
-    {name: "Denis", last_message:"I will be later", datetime_msg:"01-12-2023 07-31"},
-    {name: "Alex", last_message:"Go away!", datetime_msg:"02-12-2023 14-46"},
-    {name: "Lily", last_message:"Hiii", datetime_msg:"02-12-2023 12-19"},
-    {name: "Denis", last_message:"I will be later", datetime_msg:"01-12-2023 07-31"},
+    {name: "Alex", last_message:"Go away!", datetime_msg:"02-12-2023 14-46", avatar:""},
+    {name: "Lily", last_message:"Hiii", datetime_msg:"02-12-2023 12-19", avatar:"https://images.pexels.com/photos/1554740/pexels-photo-1554740.jpeg"},
+    {name: "Denis", last_message:"I will be later", datetime_msg:"01-12-2023 07-31", avatar:""},
 ];
 
 </script>
